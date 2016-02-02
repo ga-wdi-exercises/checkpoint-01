@@ -13,7 +13,7 @@ the square brackets (for multiple-choice questions).
 
 ### Question #1
 
-What does it mean for an HTML tag to be semantic? Give an example of one.
+What does it mean for an HTML tag to be semantic? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
 Your answer here.
