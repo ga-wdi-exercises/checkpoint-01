@@ -9,17 +9,51 @@ the square brackets (for multiple-choice questions).
 4. Add/Commit/Push your changes to Github.
 5. Open a pull request.
 
-## CSS
+## HTML
 
 ### Question #1
+
+What does it mean for an HTML tag to be semantic? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
+
+```text
+Your answer here.
+```
+
+### Question #2
+
+What is the purpose of the alt attribute? e.g:
+
+```html
+<img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
+```
+
+```text
+Your answer here.
+```
+
+### Question #3
+
+What is the purpose of the `<head></head>` tag in HTML?
+
+```text
+Your answer here.
+```
+
+## CSS
+
+### Question #4
 
 Describe the purpose of a clearfix in CSS, and give an example of how to do it.
 
 Your Answer:
-```text
+
+```html
 ```
 
-### Question #2
+```css
+```
+
+### Question #5
 
 What does the following selector do?  `ul.dropdown > li`?
 
@@ -31,51 +65,14 @@ Select 1:
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
 ```
 
-## Scope/Context/Closures
-
-### Question #3
-
-Describe the rules of scope in JavaScript.
-
-Your Answer:
-```text
-```
-
-
-### Question #4
-
-Define an object and store it in a variable `pizza`. The object should have 2
-properties: a temperature (set to 70), and a method called `bake`. When called,
-this method should set the pizza's temperature to be 300. Note: you may not use
-the variable pizza inside your method.
-
-Your Answer:
-```js
-// write code here
-```
-
-## Callbacks
-
-### Question #5
-
-**Define a function called `doSomething`. It should take one argument, called
-`thingToDo`. When called, `doSomething` should invoke the function given as an
-argument. Finally, demonstrate calling `doSomething` with a function.**
-
-Your Answer:
-```js
-// write code here
-```
-
 ### Question #6
 
-**What is the difference between synchronous and asynchronous program execution?**
+Identify the three places CSS can go, and rank them in terms of specificity:
 
-Select all that apply:
-```
-[] Synchronous code runs at an even pace, asynchronous code runs with uneven pacing.
-[] Synchronous code runs all at the same time, asynchronous code runs completely randomly
-[] Synchronous code runs in order (as appears in the source), asynchronous code may run at a later time.
+```text
+1.
+2.
+3.
 ```
 
 ## Git
@@ -93,43 +90,19 @@ Select 1:
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
 ```
 
-## jQuery
+### Question 8
 
-### Question #8
+What is the difference between a fork and a clone?
 
-Which of the following statements will work, assuming jQuery is loaded?
-
-Select all that apply:
-```
-[] `$(".post").css("background", "peachpuff")`
-[] `$(".post").innerHTML`
-[] `$(".post").html()`
-[] `document.getElementsByClassName("post")[0].innerHTML`
-[] `document.getElementsByClassName("post").innerHTML`
-```
-
-### Question #9
-
-Using jQuery, add an event listener for clicks on the button with the id
-'greeting'. When the event happens, the code should append a paragraph to the
-body, that says "hello".
-
-Your Answer:
-```js
-// your code here
-```
-
-## Software Development Processes
-
-### Question #10
-
-Create a repo for project 1. (You don't need to fork, just create a brand new repo).
-
-Create a readme.md in that repo. In the readme, write out five (5) user stories for your first project. Be sure to include a
-role, goal, and reason for each.
-
-Finally, link to your repo on github in the space below.
-
-Your Answer:
 ```text
+Your answer here.
 ```
+
+### Question 9
+
+How is `git pull` related to `git fetch`?
+
+```text
+Your answer here.
+```
+
