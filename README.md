@@ -13,7 +13,7 @@ the square brackets (for multiple-choice questions).
 
 ### Question #1
 
-What does it mean for an HTML tag to be semantic? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
+What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
 Your answer here.
@@ -21,7 +21,7 @@ Your answer here.
 
 ### Question #2
 
-What is the purpose of the alt attribute? e.g:
+What is the purpose of the `alt` attribute? e.g:
 
 ```html
 <img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
@@ -43,14 +43,19 @@ Your answer here.
 
 ### Question #4
 
-Describe the purpose of a clearfix in CSS, and give an example of how to do it.
+In the spaces below, write the CSS property that best matches the given description.
+
+The choices are `border`, `outline`, `padding`, and `margin`. You will leave two spaces blank.
 
 Your Answer:
 
-```html
-```
-
-```css
+```text
+___: Defines the distance between an element's border and adjacent elements' borders.
+___: Inserts a "wall" around an element.
+___: Defines the distance between an element's content and its border.
+___: Defines the width of an element.
+___: Overlays a "wall" on top of an element.
+___: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
 ### Question #5
@@ -105,4 +110,3 @@ How is `git pull` related to `git fetch`?
 ```text
 Your answer here.
 ```
-
