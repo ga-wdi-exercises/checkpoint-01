@@ -2,111 +2,86 @@
 
 ## Instructions
 
-1. Fork this repo
-2. Clone your fork
-3. Fill in your answers by writing in the appropriate area, or placing an 'x' in
-the square brackets (for multiple-choice questions).
-4. Add/Commit/Push your changes to Github.
-5. Open a pull request.
+1. Fork this repo.
+2. Clone your fork.
+3. Follow the instructions.
+4. Make one commit for each question.
+5. Open a pull request to this repo.
 
 ## HTML
 
-### Question #1
+### #1
 
-What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
+Open up index.html in a text editor and browser.
+Link to the provided stylesheet
 
-```text
-Your answer here.
-```
+Commit
 
-### Question #2
+### #2
 
-What is the purpose of the `alt` attribute? e.g:
+Identify one non-semantic tag and replace it with
+a semantic one
 
-```html
-<img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
-```
+Commit
 
-```text
-Your answer here.
-```
+### #3
 
-### Question #3
+Something about the image tag is incorrect. Fix the error.
 
-What is the purpose of the `<head></head>` tag in HTML?
+Commit
 
-```text
-Your answer here.
-```
+### #4
 
-## CSS
+Change the title of the page. Specifically, change what
+shows in the tab of the page.
 
-### Question #4
+Commit
 
-In the spaces below, write the CSS property that best matches the given description.
+### #5
 
-The choices are `border`, `outline`, `padding`, and `margin`. You will leave two spaces blank.
+Set the margin to 0 for each direct child of:
 
-Your Answer:
+- `header`
+- `footer`
+- `.main`
+- `aside`
 
-```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
-___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
-___: Defines the distance between the center of an element and the center of the adjacent element.
-```
+Commit
 
-### Question #5
+### #6
 
-What does the following selector do?  `ul.dropdown > li`?
+If you inspect element, you'll see that both
+`.left` and `.right` have `width:50%;` and `float:left`, yet they are not sitting next to each other.
 
-Select 1:
-```
-[] Selects all li's which are directly inside a ul of class dropdown (children)
-[] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
-[] Selects all ul's of class dropdown, as well as the children elements that are li's
-[] Selects all ul's of class dropdown, only if their children are exclusively li's
-```
+Fix this issue without modifying any of `.left` and `.right`'s `padding`, `border`, or `width`.
 
-### Question #6
+Commit
 
-Identify the three places CSS can go, and rank them in terms of specificity:
+### #7
 
-```text
-1.
-2.
-3.
-```
+When the page is fewer than 600px wide, the background
+of .main turns red.
 
-## Git
+Instead of making .main red, reorder the elements to:
 
-### Question #7
+1. Header
+2. Main
+3. Aside
+4. Aside
+5. Footer
 
-Which of the following represents a correct workflow for submitting a PR on a non-master branch?
-(ignore the lack of commit messages)
+Using CSS only.
 
-Select 1:
-```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
-[] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
-[] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
-```
+Commit
 
-### Question 8
 
-What is the difference between a fork and a clone?
+### #8
 
-```text
-Your answer here.
-```
+Open up workflow.txt
 
-### Question 9
+Rearrange the lines to identify the correct workflow
+for submitting a pull request on a non-master branch.
 
-How is `git pull` related to `git fetch`?
+Remove the lines that are not required in this workflow
 
-```text
-Your answer here.
-```
+Commit
