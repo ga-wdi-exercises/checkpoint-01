@@ -25,6 +25,7 @@ main{
   flex: 3;
 }
 .left, .right{
+    
   float:left;
   width:50%;
   background:#ccc;
