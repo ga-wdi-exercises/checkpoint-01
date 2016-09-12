@@ -1,39 +1,62 @@
 *{
   box-sizing:border-box;
 }
-body{
+
+body {
   margin:0;
   display: flex;
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+
+header, footer, aside, .main {
   padding: 1em;
 }
-header, footer{
+
+header, footer {
   flex: 0 0 100%;
   background:#eee;
 }
-aside{
+
+aside {
   flex: 1;
   background:#ddd;
 }
-.main{
+
+.main {
   flex: 3;
 }
-.left, .right{
+
+.left, .right {
   float:left;
   width:50%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
 }
-img{
+
+img {
   max-width:100%;
 }
 
-@media(max-width:600px){
-  .main{
+@media(max-width:600px) {
+  .main {
     background:red;
   }
+}
+
+header > h1 {
+  margin: 0;
+}
+
+footer > h3 {
+  margin: 0;
+}
+
+.main > h2 {
+  margin: 0;
+}
+
+aside > h2 {
+  margin: 0;
 }
