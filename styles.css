@@ -39,9 +39,27 @@ img {
   max-width:100%;
 }
 
-@media(max-width:600px) {
+/*@media(max-width:600px) {
   .main {
     background:red;
+  }
+}*/
+
+@media(max-width:600px) {
+  header {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  body > aside {
+    order:3;
+  }
+  aside > h2 {
+    order: 4;
+  }
+  footer {
+    order:5;
   }
 }
 
