@@ -31,6 +31,9 @@ aside{
 img{
   max-width:100%;
 }
+header > *, footer > *, .main > *, aside > * {
+  margin: 0;
+}
 
 @media(max-width:600px){
   .main{
