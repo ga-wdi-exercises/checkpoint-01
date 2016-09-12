@@ -36,8 +36,22 @@ header > *, footer > *, .main > *, aside > * {
 }
 
 @media(max-width:600px){
+  body {
+    flex-direction: column;
+  }
   .main{
     background:red;
   }
+  header {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  footer {
+    order: 4;
+  }
 }
-/*I'm not sure if I understand 6. I know it's a freebie but if it wasn't I'm not sure I could answer...*/
