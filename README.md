@@ -8,6 +8,9 @@
 4. Make one commit for each question.
 5. Open a pull request to this repo.
 
+If you finish early, try tackling the Moonrise kingdom
+exercise - https://github.com/ga-wdi-exercises/moonrise_kingdom/blob/master/sam_registration.jpg
+
 ## HTML
 
 ### #1
