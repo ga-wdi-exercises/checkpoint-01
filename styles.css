@@ -25,7 +25,7 @@ main{
   flex: 3;
 }
 .left, .right{
-    
+
   float:left;
   width:50%;
   background:#ccc;
@@ -37,7 +37,19 @@ img{
 }
 
 @media(max-width:600px){
+  header {
+    order: 1;
+  }
   main{
-    background:red;
+    order: 2;
+  }
+  body:first-child aside{
+    order: 3;
+  }
+  body:last-child aside{
+    order: 4;
+  }
+  footer{
+    order: 5;
   }
 }
