@@ -7,16 +7,27 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header, footer, aside, aside, .main{
   padding: 1em;
+  margin: 0;
 }
 header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
-aside{
+/*taside{
   flex: 1;
   background:#ddd;
+}*/
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+h3 {
+  float: right;
 }
 .main{
   flex: 3;
@@ -27,9 +38,16 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+
 }
 img{
-  max-width:100%;
+  height: 75px;
+  width: 75px;
 }
 
 @media(max-width:600px){
