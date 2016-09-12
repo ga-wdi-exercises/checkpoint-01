@@ -51,7 +51,21 @@ img{
 }
 
 @media(max-width:600px){
-  main{
-    background:red;
-  }
+  header {
+    order:-1;
 }
+  main {
+    order:0;
+  }
+
+  #aside_left {
+    order:1;
+  }
+
+  #aside_right {
+    order:2;
+  }
+
+  footer {
+    order:3;
+  }
