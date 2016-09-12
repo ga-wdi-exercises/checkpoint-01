@@ -7,12 +7,23 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header{
   padding: 1em;
+  flex: 0 0 100%;
+  background: #eee;
 }
-header, footer{
+
+.main {
+  padding: 1em;
+  flex: 3
+}
+footer{
   flex: 0 0 100%;
   background:#eee;
+  padding: 1em;
+}
+aside {
+  padding: 1em;
 }
 aside{
   flex: 1;
