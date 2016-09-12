@@ -30,11 +30,14 @@ aside{
 }
 img{
   max-width:100%;
-  
+
 }
 
 @media(max-width:600px){
   .main{
     background:red;
   }
+}
+h1, h2, h3:only-child{
+  margin: 0;
 }
