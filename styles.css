@@ -29,8 +29,9 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
+  padding: 1em;
 }
 .left, .right {
   float:left;
@@ -44,7 +45,7 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
+  main{
     background:red;
   }
 }
