@@ -14,6 +14,27 @@ header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
+
+header>h1{
+  margin: 0px;
+  color: red;
+}
+
+footer>h3{
+  margin: 0px;
+  color: red;
+}
+
+main>h2{
+  margin: 0px;
+  color: red;
+}
+
+aside>h2{
+  margin: 0px;
+  color: red;
+}
+
 aside{
   flex: 1;
   background:#ddd;
