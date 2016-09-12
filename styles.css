@@ -38,7 +38,7 @@ aside{
 .main{
   flex: 3;
 }
-.left, .right{
+.left, .right{  /*-- Qustion 6  */
   float:left;
   width:50%;
   background:#ccc;
