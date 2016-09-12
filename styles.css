@@ -7,6 +7,23 @@ body{
   flex-wrap: wrap;
   font-family
 }
+/* question #5 */
+header > h1 {
+  margin:0;
+}
+footer > h3 ,footer > p{
+    margin:0;
+}
+.main > h2,.main > ,.main > article, .main > img {
+    margin:0;
+}
+
+aside > h2 {
+      margin:0;
+}
+
+/* end question #3 */
+
 header, footer, aside, .main{
   padding: 1em;
 }
