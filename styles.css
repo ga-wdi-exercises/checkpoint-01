@@ -41,7 +41,21 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body{
+    flex-direction: column;
   }
+  header{
+    order: 1;
+  }
+  .main{
+    order:2;
+    flex-grow: 1
+  }
+  aside{
+    order:3;
+  }
+  footer{
+    order: 4;
+  }
+
 }
