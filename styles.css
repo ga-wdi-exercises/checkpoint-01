@@ -42,6 +42,6 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
-  }
+    flex-direction: column;
+    }
 }
