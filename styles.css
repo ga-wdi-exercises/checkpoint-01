@@ -37,6 +37,7 @@ main {
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+  order: 2;
 }
 
 @media(max-width:600px){
