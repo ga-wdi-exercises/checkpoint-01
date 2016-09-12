@@ -28,7 +28,14 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+  position: relative;
+
 }
+.right {
+  height:377px;
+}
+
+
 img{
   max-width:100%;
 }
