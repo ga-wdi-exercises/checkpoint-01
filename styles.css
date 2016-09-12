@@ -37,3 +37,15 @@ img{
     background:red;
   }
 }
+header > *{
+  margin:0;
+}
+footer > *{
+  margin: 0;
+}
+.main > *{
+  margin: 0;
+}
+aside > *{
+  margin: 0;
+}
