@@ -20,6 +20,7 @@ header, footer{
 }
 aside{
   flex: 1;
+    flex: 0 0 100%;
   background:#ddd;
 }
 .main{
@@ -38,6 +39,6 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+  
   }
 }
