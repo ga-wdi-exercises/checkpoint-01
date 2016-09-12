@@ -29,7 +29,7 @@ aside{
 }
 .left, .right{
   float:left;
-  width:50%;
+  width: 49.99%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
