@@ -22,6 +22,23 @@ aside{
 main{
   flex: 3;
 }
+
+header>h1 {
+  margin: 0;
+}
+
+footer>h3,p {
+  margin:0;
+}
+
+aside>h2 {
+  margin:0;
+}
+
+main>h2,div {
+  margin:0;
+}
+
 .left, .right{
   float:left;
   width:50%;
