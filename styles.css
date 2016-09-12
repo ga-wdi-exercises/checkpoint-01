@@ -19,7 +19,7 @@ aside{
   background:#ddd;
 }
 .main{
-  flex: 3;
+  flex: 3; 
 }
 .left, .right{
   float:left;
