@@ -51,6 +51,20 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+    /* background:red; */
+    flex-direction: column;
   }
+header {
+  order: 1;
+}
+main {
+  order: 2;
+}
+body >aside {
+  order 3;
+}
+footer {
+  order:5;
+}
+
 }
