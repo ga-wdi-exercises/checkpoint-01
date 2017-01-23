@@ -51,7 +51,7 @@ Set the margin to 0 for each direct child of:
 
 ### #6
 
-If you inspect the `.left` and `.right` elements, you will see that they have `width: 50%;` and `float: left`, yet they are not sitting next to each other.
+If you inspect the `.left` and `.right` elements, you will see that they have `width: 50%;` and `float: left`. However, they are not sitting next to each other.
 
 Fix this issue without modifying any of `.left` and `.right`'s `padding`, `border`, or `width`.
 
