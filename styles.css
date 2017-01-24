@@ -9,6 +9,7 @@ body{
 }
 header, footer, aside, .main{
   padding: 1em;
+  margin: 0;
 }
 header, footer{
   flex: 0 0 100%;
@@ -28,12 +29,19 @@ aside{
   padding:1em;
   border: 5px solid #aaa;
 }
+.clearfix:after{
+  clear:both;
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+}
 img{
   max-width:100%;
 }
 
 @media(max-width:600px){
   .main{
-    background:red;
-  }
+    flex-direction: column;
+    }
 }
