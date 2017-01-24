@@ -38,7 +38,16 @@ img{
 }
 
 @media(max-width:600px){
-  main{
+  /*main{
     background:red;
+  }*/
+  main {
+    order: 1;
+  }
+  aside {
+    order: 2;
+  }
+  footer {
+    order: 3;
   }
 }
