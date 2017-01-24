@@ -1,39 +1,50 @@
-*{
+/* This rule solves #6. Without it, .left and .right's padding and border are added OUTSIDE of their 50% boxes, causing .right to wrap to the next line.*/
+* {
   box-sizing:border-box;
 }
-body{
-  margin:0;
+
+body {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  font-family
-}
-header, footer, aside, .main{
-  padding: 1em;
-}
-header, footer{
-  flex: 0 0 100%;
-  background:#eee;
-}
-aside{
-  flex: 1;
-  background:#ddd;
-}
-.main{
-  flex: 3;
-}
-.left, .right{
-  float:left;
-  width:50%;
-  background:#ccc;
-  padding:1em;
-  border: 5px solid #aaa;
-}
-img{
-  max-width:100%;
 }
 
-@media(max-width:600px){
-  .main{
-    background:red;
+header, footer, main, aside {
+  padding: 1em;
+}
+
+header > *, footer > *, main > *, aside > * {
+  margin: 0;
+}
+
+header, footer {
+  flex: 0 0 100%;
+  background: #eee;
+}
+
+main {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  background: #ddd;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+  background: #ccc;
+  padding: 1em;
+  border: 5px solid #aaa;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media(max-width:600px) {
+  header, main {
+    order: -1;
   }
 }
