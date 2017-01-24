@@ -7,10 +7,10 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header, footer, aside, main{
   padding: 1em;
 }
-header>*, footer>*, aside>*, .main>*{
+header>*, footer>*, aside>*, main>*{
   margin:0;
 }
 header, footer{
@@ -21,8 +21,8 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
-  flex: 3;
+main{
+  flex:3;
 }
 .left, .right{
   float:left;
@@ -36,7 +36,7 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
+  main{
     /*background:red;*/
   }
   body {

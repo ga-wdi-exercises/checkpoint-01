@@ -1,10 +1,25 @@
 git clone
 git checkout -b my-solution
-git commit -m ""
-git fetch --all
 git add .
-git pull upstream master
-git merge my-solution
-fork on github
-git checkout master
+git commit -m ""
 git push origin my-solution
+
+
+--cloning down the original repo (assuming you don't have a copy)
+--creating a new branch and checking it out
+--after changes add to staging area
+--commit changes from staging area to repo
+--push local copy of branch to remote repo
+
+
+Unnecessary steps:
+--Prompt asking for a pull request, not updating your repo
+  git fetch --all
+--Prompt asking for a pull request, not updating forked repo from original repo
+  git pull upstream master
+--Prompt does not ask for a merge with master, just a pull
+  git merge my-solution
+--not necessary when working with branches
+  fork on github
+--you shouldn't be checking out master if you're working with a branch (assuming you're not merging)
+  git checkout master
