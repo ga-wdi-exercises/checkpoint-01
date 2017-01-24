@@ -1,8 +1,8 @@
 fork on github
 git clone
 git checkout -b my-solution
-git add .
-git commit -m ""
 git merge my-solution
 git checkout master
+git add .
+git commit -m "final save"
 git push origin my-solution
