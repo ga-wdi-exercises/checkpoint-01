@@ -1,10 +1,16 @@
-git clone
-git checkout -b my-solution
-git commit -m ""
-git fetch --all
-git add .
-git pull upstream master
-git merge my-solution
+correct workflow for submitting a pull request on a non-master branch
+
 fork on github
+git clone
+
+git checkout -b my-solution
+
 git checkout master
+
+git merge my-solution
+
+git add .
+git commit -m ""
+
 git push origin my-solution
+git pull upstream master

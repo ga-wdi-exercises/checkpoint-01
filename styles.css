@@ -18,6 +18,13 @@ aside{
   flex: 1;
   background:#ddd;
 }
+
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+
 .main{
   flex: 3;
 }
@@ -28,12 +35,30 @@ aside{
   padding:1em;
   border: 5px solid #aaa;
 }
+
+/*answer to question 6: the website is rendering the way it's supposed to because of the float element, it's purpose is to bring elements side by side*/
+
 img{
   max-width:100%;
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body {
+    flex-direction: column;
+  }
+  header {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  aside {
+    order: 4;
+  }
+  footer {
+    order:5;
   }
 }
