@@ -9,6 +9,7 @@ body{
 }
 header, footer, aside, .main{
   padding: 1em;
+  margin: 0 auto;
 }
 header, footer{
   flex: 0 0 100%;
@@ -33,7 +34,21 @@ img{
 }
 
 @media(max-width:600px){
+  body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  header{
+    order: 1;
+  }
   .main{
-    background:red;
+    order: 2;
+  }
+  aside{
+    order: 3;
+  }
+  footer{
+    order:5;
   }
 }
