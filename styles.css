@@ -18,7 +18,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
 }
 .left, .right{
@@ -36,4 +36,7 @@ img{
   .main{
     background:red;
   }
+
+header.child, footer.child, main.child, aside.child{
+  margin: 0;
 }
