@@ -22,6 +22,7 @@ main{
   flex: 3;
 }
 .left, .right{
+  display: block;
   float:left;
   width:50%;
   background:#ccc;
