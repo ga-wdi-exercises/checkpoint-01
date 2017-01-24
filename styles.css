@@ -7,8 +7,11 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header, footer, aside, main {
   padding: 1em;
+}
+header > *, footer > *, aside > *, main > *  {
+  margin: 0 auto;
 }
 header, footer{
   flex: 0 0 100%;
@@ -18,22 +21,41 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main {
   flex: 3;
 }
 .left, .right{
   float:left;
   width:50%;
+  height: 95%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
 }
-img{
+img {
   max-width:100%;
 }
 
-@media(max-width:600px){
-  .main{
-    background:red;
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: column;
+    align-items: center
   }
+  header {
+    order: 1;
+  }
+  main{ 
+    display: flex;
+    justify-content: column;
+    align-items: flex-start;
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  footer{
+    order: 4;
+  }
+
 }
