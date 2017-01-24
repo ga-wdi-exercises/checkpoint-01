@@ -30,7 +30,6 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
-  flex:initial;
 }
 img{
   max-width:100%;
@@ -38,6 +37,25 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+    /*background:red;*/
+  }
+  body {
+    display:flex;
+    flex-direction: column;
+  }
+  main {
+    order:1;
+  }
+  aside {
+    order:2;
+  }
+  footer {
+    order:3;
+  }
+    /*Header
+Main
+Aside
+Aside
+Footer*/
   }
 }
