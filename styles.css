@@ -45,7 +45,16 @@ img{
 }
 
 @media(max-width:600px){
+  body{
+    display: flex;
+  }
+  header{
+    order:-2;
+  }
   .main{
-    background:red;
+    order:-1;
+  }
+  footer{
+    order:1;
   }
 }
