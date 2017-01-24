@@ -13,13 +13,16 @@ header, footer, aside, .main{
 header, footer{
   flex: 0 0 100%;
   background:#eee;
+  margin: 0;
 }
 aside{
   flex: 1;
   background:#ddd;
+  margin: 0;
 }
 .main{
   flex: 3;
+  margin: 0;
 }
 .left, .right{
   float:left;
@@ -34,6 +37,6 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+    background:red
   }
 }
