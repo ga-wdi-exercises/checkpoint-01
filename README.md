@@ -55,7 +55,7 @@ If you inspect the `.left` and `.right` elements, you will see that they have `w
 
 Fix this issue without modifying any of `.left` and `.right`'s `padding`, `border`, or `width`.
 
-> Commit
+They already are.. I think this is due to the fact that display: flex and  Flex wrap is initialized.
 
 ### #7
 

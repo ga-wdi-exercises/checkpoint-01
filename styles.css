@@ -1,6 +1,18 @@
 *{
   box-sizing:border-box;
 }
+header > h1{
+  margin: 0;
+}
+footer > h3{
+  margin: 0;
+}
+.main > h2{
+  margin: 0;
+}
+aside > h2{
+  margin: 0;
+}
 body{
   margin:0;
   display: flex;
@@ -18,7 +30,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+.Content{
   flex: 3;
 }
 .left, .right{
@@ -33,7 +45,11 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
+  aside{
     background:red;
+    order: 1
+  }
+  footer{
+    order:4
   }
 }
