@@ -16,12 +16,14 @@ header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
+
 aside{
   flex: 1;
   background:#ddd;
 }
 main{
-  flex: 3;
+  flex-grow: 1;
+  order: 0
 }
 .left, .right{
   float:left;
@@ -35,7 +37,12 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  main{
+    flex-direction: column;
+  }
+
+  section{
+    order: 0;
+    /*adjusted page for screens less then 600px*/
   }
 }
