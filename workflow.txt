@@ -1,10 +1,15 @@
+fork on github
 git clone
 git checkout -b my-solution
-git commit -m ""
-git fetch --all
 git add .
-git pull upstream master
-git merge my-solution
-fork on github
-git checkout master
+git commit -m ""
 git push origin my-solution
+
+_________________________
+git fetch --all /would not use since you have to original repo with all needed documentation
+
+git pull upstream master /would not use since you are forking and cloning to ultimately submit PR rather than merging a branch on GH
+
+git merge my-solution /would not merge back since you are submitting the branch
+
+git checkout master /would not switch back since all work was done in my-solution
