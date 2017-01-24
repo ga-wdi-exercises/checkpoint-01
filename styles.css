@@ -27,7 +27,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
 }
 .left, .right{
@@ -42,7 +42,16 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body {
+    flex-direction: column;
+  }
+  .left, .right{
+    width: 100%;
+  }
+  aside {
+    order: 1;
+  }
+  footer {
+    order: 2;
   }
 }
