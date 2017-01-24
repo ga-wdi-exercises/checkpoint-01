@@ -10,6 +10,9 @@ body{
 header, footer, aside, .main{
   padding: 1em;
 }
+header, footer, aside, .main > *{
+  margin: 0;
+}
 header, footer{
   flex: 0 0 100%;
   background:#eee;
@@ -33,7 +36,26 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+   body{
+     display:flex;
+     flex-direction:column;
+   }
+
+
+  header{
+    order: 1;
   }
+  .main{
+    order:2;
+  }
+  .aside1{
+    order:3;
+  }
+  .aside2{
+    order:4;
+  }
+  footer{
+    order:5;
+  }
+
 }
