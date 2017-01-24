@@ -32,12 +32,22 @@ main {
   padding:1em;
   border: 5px solid #aaa;
 }
-img{
+img {
   max-width:100%;
 }
 
-@media(max-width:600px){
-  .main{
-    background:red;
+@media (max-width: 600px) {
+  header {
+    order: 1;
   }
+  main{ 
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  footer{
+    order: 4;
+  }
+
 }
