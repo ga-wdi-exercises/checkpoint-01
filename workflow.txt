@@ -1,10 +1,12 @@
-git clone
-git checkout -b my-solution
-git commit -m ""
-git fetch --all
-git add .
-git pull upstream master
-git merge my-solution
 fork on github
-git checkout master
-git push origin my-solution
+git checkout -b my-solution
+git clone
+  /* do your changes*/
+git add .
+git commit -m ""
+git pull request origin master
+
+OR
+
+git merge origin master
+  /* and a push request will be sent to the repo admin*/

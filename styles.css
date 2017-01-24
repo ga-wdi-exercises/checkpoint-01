@@ -7,6 +7,10 @@ body{
   flex-wrap: wrap;
   font-family
 }
+body> * {
+  margin:0;
+}
+
 header, footer, aside, .main{
   padding: 1em;
 }
@@ -16,6 +20,7 @@ header, footer{
 }
 aside{
   flex: 1;
+    flex: 0 0 100%;
   background:#ddd;
 }
 .main{
@@ -34,6 +39,6 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+  
   }
 }
