@@ -37,3 +37,31 @@ img{
     background:red;
   }
 }
+
+header h1{
+  margin: 0;
+}
+
+footer h3{
+  margin: 0;
+}
+
+footer p{
+  margin: 0;
+}
+
+aside h2{
+  margin: 0;
+}
+
+main h2{
+  margin: 0;
+}
+
+main img{
+  margin: 0;
+}
+
+main div{
+  margin: 0;
+}
