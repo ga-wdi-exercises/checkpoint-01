@@ -37,10 +37,18 @@ img {
 }
 
 @media (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: column;
+    align-items: center
+  }
   header {
     order: 1;
   }
   main{ 
+    display: flex;
+    justify-content: column;
+    align-items: flex-start;
     order: 2;
   }
   aside {
