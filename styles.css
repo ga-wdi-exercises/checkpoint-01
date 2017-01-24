@@ -14,18 +14,39 @@ header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
+
+header>h1{
+  margin: 0px;
+  color: red;
+}
+
+footer>h3{
+  margin: 0px;
+  color: red;
+}
+
+main>h2{
+  margin: 0px;
+  color: red;
+}
+
+aside>h2{
+  margin: 0px;
+  color: red;
+}
+
 aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
 }
 .left, .right{
   float:left;
   width:50%;
   background:#ccc;
-  padding:1em;
+  padding:1em;s
   border: 5px solid #aaa;
 }
 img{
@@ -33,7 +54,21 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body{
+    display:flex;
+    flex-direction: column;
+  }
+
+  header{
+    order:1;
+  }
+  main{
+    order:2;
+  }
+  aside{
+    order:3;
+  }
+  footer{
+    order:4;
   }
 }
