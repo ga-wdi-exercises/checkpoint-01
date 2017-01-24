@@ -9,6 +9,7 @@ body{
 }
 header, footer, aside, .main{
   padding: 1em;
+  margin:0;
 }
 header, footer{
   flex: 0 0 100%;
@@ -27,13 +28,32 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+  position: relative;
+
 }
+.right {
+  height:377px;
+}
+
+
 img{
   max-width:100%;
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body {
+    flex-direction: column;
+  }
+  header {
+    order: 0;
+  }
+  .main {
+    order:1;
+  }
+  aside {
+    order:2;
+  }
+  footer {
+    order:4;
   }
 }
