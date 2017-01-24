@@ -36,8 +36,23 @@ img{
 }
 
 @media(max-width:600px){
-  main{
-    background:red;
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header {
+    order: 1;
+  }
+  main {
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  footer {
+    order: 4;
   }
 }
 
