@@ -27,13 +27,7 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
-}
-aside{
-  float:left;
-  width:50%;
-  background:#ccc;
-  padding:1em;
-  border: 5px solid #aaa;
+  flex:initial;
 }
 img{
   max-width:100%;
