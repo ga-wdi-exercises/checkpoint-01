@@ -1,3 +1,4 @@
+/* This rule solves #6. Without it, .left and .right's padding and border are added OUTSIDE of their 50% boxes, causing .right to wrap to the next line.*/
 * {
   box-sizing:border-box;
 }
