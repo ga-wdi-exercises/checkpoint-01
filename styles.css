@@ -27,6 +27,7 @@ main {
 .left, .right{
   float:left;
   width:50%;
+  height: 95%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
