@@ -7,6 +7,7 @@ body{
   flex-wrap: wrap;
   font-family
 }
+
 header, footer, aside, .main{
   padding: 1em;
 }
@@ -17,9 +18,16 @@ header, footer{
 aside{
   flex: 1;
   background:#ddd;
+  order: 2;
 }
+
+footer {
+  order: 3;
+}
+
 .main{
-  flex: 3;
+  flex: 3
+  order: 1;
 }
 .left, .right{
   float:left;
