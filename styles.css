@@ -10,6 +10,22 @@ body{
 header, footer, aside, .main{
   padding: 1em;
 }
+header > h1 {
+  margin: 0;
+}
+
+footer > h3, p {
+  margin: 0;
+}
+
+.main > h2, section {
+  margin: 0;
+}
+
+aside > h2 {
+  margin: 0;
+}
+
 header, footer{
   flex: 0 0 100%;
   background:#eee;
@@ -21,7 +37,15 @@ aside{
 .main{
   flex: 3;
 }
-.left, .right{
+
+section {
+  float:left;
+  width:50%;
+  background:#ccc;
+  padding:1em;
+  border: 5px solid #aaa;
+}
+.right{
   float:left;
   width:50%;
   background:#ccc;
