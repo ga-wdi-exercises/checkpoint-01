@@ -35,6 +35,9 @@ h1, h2, h3 {
   padding:1em;
   border: 5px solid #aaa;
 }
+
+/*answer to question 6: the website is rendering the way it's supposed to because of the float element, it's purpose is to bring elements side by side*/
+
 img{
   max-width:100%;
 }
