@@ -28,6 +28,9 @@ main{
   padding:1em;
   border: 5px solid #aaa;
 }
+/* Part 6 was already working because they're
+both set to float left with no margin */
+
 img{
   max-width:100%;
 }
