@@ -34,7 +34,13 @@ img{
 }
 
 @media(max-width:600px){
-  main{
-    background:red;
+  .boxa{
+    order: 1;
+  }
+  .boxb{
+    order: 2;
+  }
+  .footer{
+    order: 3;
   }
 }
