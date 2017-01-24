@@ -1,6 +1,12 @@
 *{
   box-sizing:border-box;
 }
+
+/*For question 6: if you remove border -box above ^^^ then it
+will include borders within the 100% calculation for the box
+model and cause the right aside to bump down a line because
+it has a 1em border.  This is causing it to display correctly*/
+
 body{
   margin:0;
   display: flex;
