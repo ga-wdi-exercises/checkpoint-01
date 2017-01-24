@@ -7,8 +7,9 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header, footer, aside, main{
   padding: 1em;
+  margin: 0;
 }
 header, footer{
   flex: 0 0 100%;
@@ -18,7 +19,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
 }
 .left, .right{
@@ -33,7 +34,13 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  .boxa{
+    order: 1;
+  }
+  .boxb{
+    order: 2;
+  }
+  .footer{
+    order: 3;
   }
 }
