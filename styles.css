@@ -37,7 +37,7 @@ header > h1, footer > h3, main > h2, aside > h2 {
 
 
 @media(max-width:600px){
-  main{
+  header, footer, aside, main{
     background:red;
   }
 }
