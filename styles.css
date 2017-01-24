@@ -30,7 +30,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+.Content{
   flex: 3;
 }
 .left, .right{
