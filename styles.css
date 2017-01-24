@@ -7,6 +7,23 @@ body{
   flex-wrap: wrap;
   font-family
 }
+/* question #5 */
+header > h1 {
+  margin:0;
+}
+footer > h3 ,footer > p{
+    margin:0;
+}
+.main > h2,.main > ,.main > article, .main > img {
+    margin:0;
+}
+
+aside > h2 {
+      margin:0;
+}
+
+/* end question #3 */
+
 header, footer, aside, .main{
   padding: 1em;
 }
@@ -21,7 +38,7 @@ aside{
 .main{
   flex: 3;
 }
-.left, .right{
+.left, .right{  /*-- Qustion 6  */
   float:left;
   width:50%;
   background:#ccc;
@@ -34,6 +51,20 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+    /* background:red; */
+    flex-direction: column;
   }
+header {
+  order: 1;
+}
+main {
+  order: 2;
+}
+body >aside {
+  order 3;
+}
+footer {
+  order:5;
+}
+
 }
