@@ -45,7 +45,11 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
+  aside{
     background:red;
+    order: 1
+  }
+  footer{
+    order:4
   }
 }
