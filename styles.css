@@ -33,7 +33,34 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  main{
+    flex-direction: column;
   }
+  header {
+    order:1;
+  }
+  main {
+    order: 2;
+  }
+  aside{
+    order: 3;
+  }
+}
+footer{
+  order:4;
+}
+}
+
+h1 > header {
+  margin: 0;
+}
+h3, p > footer {
+  margin: 0;
+}
+
+h2 > main {
+  margin: 0;
+}
+h2 > aside {
+  margin: 0;
 }
