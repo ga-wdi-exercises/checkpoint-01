@@ -32,8 +32,14 @@ img{
   max-width:100%;
 }
 
+
+
 @media(max-width:600px){
   .main{
     background:red;
   }
+}
+/*------My Style--------*/
+header>h1, footer>h3, .main>h2, aside>h2 {
+  margin: 0;
 }
