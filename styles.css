@@ -18,9 +18,27 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+
+main{
   flex: 3;
 }
+
+header>h1 {
+  margin: 0;
+}
+
+footer>h3,p {
+  margin:0;
+}
+
+aside>h2 {
+  margin:0;
+}
+
+main>h2,div {
+  margin:0;
+}
+
 .left, .right{
   float:left;
   width:50%;
@@ -33,7 +51,21 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
-  }
+  header {
+    order:-1;
 }
+  main {
+    order:0;
+  }
+
+  #aside_left {
+    order:1;
+  }
+
+  #aside_right {
+    order:2;
+  }
+
+  footer {
+    order:3;
+  }
