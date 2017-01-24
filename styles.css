@@ -31,9 +31,27 @@ aside{
 img{
   max-width:100%;
 }
+header > *, footer > *, .main > *, aside > * {
+  margin: 0;
+}
 
 @media(max-width:600px){
+  body {
+    flex-direction: column;
+  }
   .main{
     background:red;
+  }
+  header {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  footer {
+    order: 4;
   }
 }

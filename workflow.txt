@@ -1,10 +1,15 @@
+fork on github
 git clone
 git checkout -b my-solution
-git commit -m ""
-git fetch --all
 git add .
-git pull upstream master
-git merge my-solution
-fork on github
+git commit -m ""
 git checkout master
 git push origin my-solution
+// Added
+And then submit pull request origin my-solution > upstream ???. I have had issues in the past with submitting a pull request for a branch that only exists in a forked repo and not the upstream... I would like more information about how this works.
+
+
+// Did not use
+git merge my-solution
+git pull upstream master
+git fetch --all
