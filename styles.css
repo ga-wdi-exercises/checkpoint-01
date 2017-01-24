@@ -39,7 +39,19 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body {
+    flex-direction: column;
+  }
+
+  main {
+    order:1;
+  }
+
+  aside {
+    order: 2;
+  }
+
+  footer {
+    order: 3;
   }
 }
