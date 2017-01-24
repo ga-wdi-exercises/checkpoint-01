@@ -44,7 +44,7 @@ img {
 }
 
 @media(max-width:600px) {
-  .main {
-    background: red;
+  header, main {
+    order: -1;
   }
 }
