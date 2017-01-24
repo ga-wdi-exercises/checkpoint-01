@@ -28,12 +28,23 @@ aside{
   padding:1em;
   border: 5px solid #aaa;
 }
-img{
+img {
   max-width:100%;
+}
+main {
+  float:left;
+  width:50%;
+  background:#ccc;
+  padding:1em;
+  border: 5px solid #aaa;
+  order: 2;
 }
 
 @media(max-width:600px){
   .main{
     background:red;
   }
+}
+h1, h2, h3, p {
+  margin: 0;
 }
