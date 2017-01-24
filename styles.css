@@ -26,7 +26,8 @@ main{
   width:50%;
   background:#ccc;
   padding:1em;
-  border: 5px solid #aaa;
+  border:5px solid #aaa;
+  margin:0;
 }
 img{
   max-width:100%;
@@ -36,4 +37,20 @@ img{
   main{
     background:red;
   }
+h1{
+  margin:0;
+}
+h2{
+  margin:0;
+}
+img{
+  margin:0;
+}
+h3{
+  margin:0;
+}
+p{
+  margin:0;
+}
+
 }
