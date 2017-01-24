@@ -19,7 +19,8 @@ aside{
   background:#ddd;
 }
 .main{
-  flex: 3;
+  flex:3;
+
 }
 .left, .right{
   float:left;
@@ -30,10 +31,14 @@ aside{
 }
 img{
   max-width:100%;
+
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body{
+    flex-direction: column;
   }
+}
+h1, h2, h3:only-child{
+  margin: 0;
 }
