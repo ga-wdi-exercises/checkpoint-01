@@ -7,7 +7,7 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header, footer, aside, main{
   padding: 1em;
 }
 header, footer{
@@ -18,7 +18,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
 }
 .left, .right{
@@ -26,14 +26,39 @@ aside{
   width:50%;
   background:#ccc;
   padding:1em;
-  border: 5px solid #aaa;
-}
+  border:5px solid #aaa;
+  margin:0;
+}/*moved margin for image tag*/
 img{
   max-width:100%;
+  margin:0;
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  header{
+    order: 1;
   }
+  main{
+    order: 2;
+  }
+  aside{
+    order: 3;
+  }
+  footer{
+    order: 4;
+  }
+  }
+h1{
+  margin:0;
+}
+h2{
+  margin:0;
+}
+h3{
+  margin:0;
+}
+p{
+  margin:0;
+}
+
 }
