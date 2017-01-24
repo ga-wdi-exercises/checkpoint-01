@@ -22,6 +22,10 @@ aside{
 .main{
   flex: 3;
 }
+/*Because of the size of the .main (flex:3:)*/
+/*the attributes .left .right cannot both fit*/
+/*inside the main content area if allowed to be*/
+/*filled with content.*/
 .left, .right{
   float:left;
   width:50%;
@@ -35,6 +39,19 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+    /*background:red;*/
   }
+  header {
+    order: 0;
+  }
+  .main{
+    order: 1;
+  }
+  aside {
+    order: 2;
+  }
+  footer{
+    order: 3;
+  }
+
 }
