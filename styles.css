@@ -14,12 +14,24 @@ header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
-aside{
+
+header > * {
+  margin: 0;
+}
+
+footer > * {
+  margin: 0;
+}
+
+aside > * {
   flex: 1;
   background:#ddd;
+  margin: 0;
 }
 .main{
   flex: 3;
+  margin: 0;
+
 }
 .left, .right{
   float:left;
