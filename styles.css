@@ -7,8 +7,11 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header, footer, aside, main {
   padding: 1em;
+}
+header > *, footer > *, aside > *, main > *  {
+  margin: 0 auto;
 }
 header, footer{
   flex: 0 0 100%;
