@@ -9,6 +9,8 @@ body{
 }
 header, footer, aside, .main{
   padding: 1em;
+  margin: 0;
+  /*change margin to 0*/
 }
 header, footer{
   flex: 0 0 100%;
