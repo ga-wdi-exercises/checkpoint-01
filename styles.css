@@ -1,6 +1,18 @@
 *{
   box-sizing:border-box;
 }
+header > h1{
+  margin: 0;
+}
+footer > h3{
+  margin: 0;
+}
+.main > h2{
+  margin: 0;
+}
+aside > h2{
+  margin: 0;
+}
 body{
   margin:0;
   display: flex;
