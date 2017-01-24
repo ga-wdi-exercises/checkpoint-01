@@ -9,6 +9,7 @@ body{
 }
 header, footer, aside, .main{
   padding: 1em;
+  margin: 0 auto;
 }
 header, footer{
   flex: 0 0 100%;
@@ -33,7 +34,7 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
+  header, .main, aside, footer{
     background:red;
   }
 }
