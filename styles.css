@@ -6,7 +6,6 @@ body{
   margin:0;
   display: flex;
   flex-wrap: wrap;
-  font-family
 }
 
 header, footer, aside, .main{
@@ -14,7 +13,7 @@ header, footer, aside, .main{
 }
 
 header > *, footer > *, aside > *, .main > * {
-  margin:0;
+  margin: 0;
 }
 
 header, footer{
@@ -31,6 +30,9 @@ aside{
   flex: 3;
 }
 
+
+/*By applying float:left and width:50%, both elements are
+displayed inline and take up exactly half of their parent div, so there is no space between them. */
 .left, .right{
   float:left;
   width:50%;
