@@ -1,10 +1,29 @@
-git clone
-git checkout -b my-solution
-git commit -m ""
-git fetch --all
-git add .
-git pull upstream master
-git merge my-solution
+Not quite sure about the wording of this question so I'm just going to write out
+the steps to what I think it is that you're looking for along with comments so you
+know I know what I'm doing.
+
 fork on github
-git checkout master
+//assume that the repo that I'm branching and pull requesting is similar to the hw
+we've been doing, in that case I'll need my own fork of it//
+git clone
+//grab the ssh link from my fork of the repo in question and clone it//
+git checkout -b my-solution
+//this creates and shifts the head to my new branch//
+git add .
+//run this after having made changes to move changes to staging area//
+git commit -m ""
+//run this to make a commit to local repo with comment//
+
+here you could go two ways
+
+1. you could
 git push origin my-solution
+//this would create a new branch in your remote repo and push your local branch to
+it. You could then submit a pull request via github's gui.
+
+ 2. you could instead
+ git remote add upstream <whatever>
+git fetch --all
+git pull upstream master
+
+and that would work too.

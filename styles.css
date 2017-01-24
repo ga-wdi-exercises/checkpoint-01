@@ -2,12 +2,14 @@
   box-sizing:border-box;
 }
 body{
+  height: 100%;
+  width: 100%;
   margin:0;
   display: flex;
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
+header, footer, aside, main{
   padding: 1em;
 }
 header, footer{
@@ -18,7 +20,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
 }
 .left, .right{
@@ -31,9 +33,26 @@ aside{
 img{
   max-width:100%;
 }
+header > *, footer > *, main > *, aside > * {
+  margin: 0;
+}
 
 @media(max-width:600px){
-  .main{
+  body {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header {
+    order: 1;
+  }
+  main{
     background:red;
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  footer {
+    order: 4;
   }
 }
