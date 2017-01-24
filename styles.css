@@ -37,3 +37,7 @@ img{
     background:red;
   }
 }
+
+header > h1, aside > h2, .main > h2, .main > div, footer > h3, footer > p {
+  margin: 0;
+}
