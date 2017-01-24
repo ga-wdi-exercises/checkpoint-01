@@ -26,6 +26,7 @@ aside{
 .main{
   flex: 3;
 }
+/*Already done*/
 .left, .right{
   float:left;
   width:50%;
