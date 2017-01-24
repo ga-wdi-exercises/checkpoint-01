@@ -7,6 +7,20 @@ body{
   flex-wrap: wrap;
   font-family
 }
+header > h1 {
+  margin: 0;
+}
+
+footer > h3{
+  margin: 0;
+}
+.main > h2 {
+  margin: 0;
+}
+
+aside > h2 {
+  margin: 0;
+}
 header, footer, aside, .main{
   padding: 1em;
 }
@@ -21,7 +35,7 @@ aside{
 .main{
   flex: 3;
 }
-.left, .right{
+.leftdiv, .right{
   float:left;
   width:50%;
   background:#ccc;
@@ -34,6 +48,16 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+    order: 2;
+  }
+  header {
+  order: 1;
+}
+aside {
+  order: 3;
+}
+
+  footer {
+    order: 5;
   }
 }
