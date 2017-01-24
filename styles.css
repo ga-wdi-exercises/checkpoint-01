@@ -1,3 +1,10 @@
+    <!-- 201701240915L   EL MARTES   GIRO -->
+    /*Set the margin to 0 for each direct child of:
+        header
+        footer
+        .main
+        aside*/
+
 *{
   box-sizing:border-box;
 }
@@ -14,13 +21,24 @@ header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
+header>h1 { margin: 0px; }
+footer>h3 { margin: 0px; }
+footer>p { margin: 0px; }
 aside{
   flex: 1;
   background:#ddd;
 }
-.main{
-  flex: 3;
-}
+.main{ flex: 3; }
+.main>h2{ margin: 0px; }
+.main>div class='left'{ margin: 0px; }
+aside>h2{ margin: 0px; }
+
+        /*#6
+        If you inspect the .left and .right elements,
+        you will see that they have width: 50%; and float: left.
+        However, they are not sitting next to each other.
+        Fix this issue without modifying any of
+        .left and .right's padding, border, or width.*/
 .left, .right{
   float:left;
   width:50%;
@@ -35,5 +53,12 @@ img{
 @media(max-width:600px){
   .main{
     background:red;
+            /*Instead of making .main red, reorder the elements to...
+        Header
+        Main
+        Aside
+        Aside
+        Footer*/
+        order:
   }
 }
