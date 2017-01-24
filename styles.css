@@ -18,7 +18,7 @@ aside{
   flex: 1;
   background:#ddd;
 }
-.main{
+main{
   flex: 3;
 }
 .left, .right{
@@ -37,7 +37,8 @@ header > h1, footer > h3, main > h2, aside > h2 {
 
 
 @media(max-width:600px){
-  .main{
+  main{
     background:red;
   }
 }
+/*for number 6 its because main is a flexbox.*/
