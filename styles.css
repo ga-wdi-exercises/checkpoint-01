@@ -6,11 +6,14 @@ body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  /*font-family*/
 }
 
-header, footer, aside, .main {
+header, footer, main, aside {
   padding: 1em;
+}
+
+header > *, footer > *, main > *, aside > * {
+  margin: 0;
 }
 
 header, footer {
@@ -18,13 +21,13 @@ header, footer {
   background: #eee;
 }
 
+main {
+  flex: 3;
+}
+
 aside {
   flex: 1;
   background: #ddd;
-}
-
-main {
-  flex: 3;
 }
 
 .left, .right {
