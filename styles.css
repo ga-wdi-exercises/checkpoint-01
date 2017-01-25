@@ -5,7 +5,7 @@ body{
   margin:0;
   display: flex;
   flex-wrap: wrap;
-  font-family
+  font-family: sans-serif;
 }
 header, footer, aside, .main{
   padding: 1em;
@@ -32,8 +32,23 @@ img{
   max-width:100%;
 }
 
-@media(max-width:600px){
+
+
+@media screen and (max-width: 600px){
   .main{
     background:red;
   }
+  header, main {
+    order: 0;
+  }
+  aside {
+    order: 1;
+  }
+  footer {
+    order: 2;
+  }
+}
+/*------My Style--------*/
+header>h1, footer>h3, .main>h2, aside>h2 {
+  margin: 0;
 }
