@@ -35,5 +35,27 @@ img{
 @media(max-width:600px){
   .main{
     background:red;
+    order:1;
   }
+  header {
+    order: 0;
+  }
+  aside.left{
+    order:2;
+  }
+  aside.right{
+    order:3;
+  }
+  footer{
+    order:4;
+  }
+}
+h1, h3, h2 {
+  margin: 0;
+}
+.left {
+  order:1;
+}
+.right {
+  order:1;
 }
