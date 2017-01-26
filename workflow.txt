@@ -1,10 +1,20 @@
-git clone
-git checkout -b my-solution
-git commit -m ""
-git fetch --all
-git add .
-git pull upstream master
-git merge my-solution
-fork on github
-git checkout master
-git push origin my-solution
+
+1.fork on github
+
+2.git clone
+
+3.git add .
+
+4.git checkout -b my-solution
+
+5.git commit -m ""
+
+6.git checkout master
+
+7.git merge my-solution
+
+8.git push origin my-solution
+
+9.git fetch --all
+
+10.git pull upstream master
