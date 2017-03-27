@@ -6,7 +6,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   font-family
-  
+
 }
 header, footer, aside, .main{
   padding: 1em;
@@ -39,4 +39,21 @@ img{
   .main{
     background:red;
   }
+}
+
+header > h2 {
+margin: 0 auto;
+}
+
+
+footer > h3 , p{
+  margin: 0 auto;
+}
+
+.main > h2 , .left {
+  margin: 0 auto;
+}
+
+aside > h2 {
+  margin: 0 auto;
 }
