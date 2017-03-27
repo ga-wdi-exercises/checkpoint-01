@@ -28,7 +28,7 @@ aside{
 }
 .left, .right{
   float:left;
-  width:50%;
+  width: 50%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
@@ -39,7 +39,11 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
-  }
+  body { display: flex;
+  flex-direction: column;}
+  .header { flex: ;}
+  .main { order: 1;}
+  .aside-1 { order: 2;}
+  .aside-2 { order: 3;}
+  footer { order: 4;}
 }
