@@ -37,7 +37,15 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body{
+    display: flex;
+    flex-direction: column;
   }
-}
+
+  aside {
+    order: 1;
+  }
+
+  footer {
+    order: 2;
+  }
