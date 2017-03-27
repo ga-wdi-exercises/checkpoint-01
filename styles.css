@@ -23,12 +23,18 @@ aside{
   flex: 3;
 }
 .left, .right{
-  /*flex-direction: column-reverse;*/
   float:left;
   width:50%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
 }
 
 img{
