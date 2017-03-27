@@ -39,8 +39,17 @@ img{
 }
 
 @media(max-width:600px){
+  header {
+    order:0;
+  }
   main {
-    background:red;
+    order:1;
+  }
+  aside {
+    order:2;
+  }
+  footer {
+    order:3;
   }
 }
 
