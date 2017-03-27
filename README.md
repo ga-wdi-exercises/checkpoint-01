@@ -67,7 +67,9 @@ Set the margin to 0 for each direct child of:
 - `.main`
 - `aside`
 
-> Commit
+header > *, footer > *, .main > *, aside > * {
+margin:0;  
+}
 
 ### #6
 
@@ -102,8 +104,6 @@ Instead of making `.main` red, reorder the elements to...
 }
 
 Do this using only CSS -- do not rearrange the HTML.
-
-> Commit
 
 
 ### #8
