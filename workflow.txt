@@ -8,3 +8,15 @@ git merge my-solution
 fork on github
 git checkout master
 git push origin my-solution
+
+
+fork on gitbub
+git clone
+git fetch -all
+git checkout -b my-solution
+git checkout master
+git merge my-solution
+git add .
+git commit -m ""
+git push origin my-solution
+git ull upstream master
