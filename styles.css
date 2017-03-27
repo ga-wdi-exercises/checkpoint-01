@@ -4,7 +4,7 @@
 body{
   margin:0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   font-family
 }
 header, footer, aside, .main{
@@ -23,18 +23,21 @@ aside{
   flex: 3;
 }
 .left, .right{
+  /*flex-direction: column-reverse;*/
   float:left;
   width:50%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
 }
+
 img{
   max-width:100%;
 }
 
 @media(max-width:600px){
   .main{
-    background:red;
+    display:flex;
+    /*flex-direction: column-reverse;*/
   }
 }
