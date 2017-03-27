@@ -24,6 +24,7 @@ aside{
 }
 .main{
   flex: 3;
+  display: flex;
 }
 .left, .right{
   float:left;
@@ -31,6 +32,7 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+
 }
 img{
   max-width:100%;
