@@ -23,7 +23,9 @@ aside{
   flex: 3;
 }
 .left, .right{
-  float:left;
+  display: flex;
+  flex-direction: row;
+  /* Fuzzy, will update */
   width:50%;
   background:#ccc;
   padding:1em;
@@ -35,6 +37,6 @@ img{
 
 @media(max-width:600px){
   .main{
-    background:red;
+
   }
 }
