@@ -9,6 +9,7 @@ body{
 }
 header, footer, aside, .main{
   padding: 1em;
+  margin: 0
 }
 header, footer{
   flex: 0 0 100%;
@@ -27,6 +28,7 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+  flex: auto;
 }
 img{
   max-width:100%;
