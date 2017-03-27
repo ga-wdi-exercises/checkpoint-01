@@ -43,3 +43,7 @@ img{
     background:red;
   }
 }
+
+header>*, footer>*, main>*, aside>* {
+  margin:0px;
+}
