@@ -18,25 +18,25 @@ If you finish early, try tackling the [Moonrise Kingdom exercise](https://github
 
 Open up `index.html` in a text editor and browser. Link to the provided stylesheet.
 
-> Commit
+--- full link code added into the html document "  <link rel="stylesheet" type="text/css" href="style.css""
 
 ### #2
 
 Identify one non-semantic tag and replace it with a semantic one.
 
-> Commit
+ ---- replaced the non-semantic div tag with a semantic table tag
 
 ### #3
 
 Something about the image tag is incorrect. Fix the error.
 
-> Commit
+--- alt tag was added to describe what the image was of the tag
 
 ### #4
 
 Change the title of the page. Specifically, change what shows in the tab of the page (i.e., at the top of the browser).
 
-> Commit
+--- a title tag was added to the site.
 
 ### #5
 
@@ -47,7 +47,12 @@ Set the margin to 0 for each direct child of:
 - `.main`
 - `aside`
 
-> Commit
+--- a css code was added that changes the margin of the direct child tags for the elements listed above:
+""}
+header, footer, aside, .main > span{
+  margin: 0;
+} ""
+
 
 ### #6
 
@@ -55,7 +60,7 @@ If you inspect the `.left` and `.right` elements, you will see that they have `w
 
 Fix this issue without modifying any of `.left` and `.right`'s `padding`, `border`, or `width`.
 
-> Commit
+--- "a css code was added to the .left and .right "  display:inline-block;""
 
 ### #7
 
@@ -71,7 +76,7 @@ Instead of making `.main` red, reorder the elements to...
 
 Do this using only CSS -- do not rearrange the HTML.
 
-> Commit
+--- In the css "media element" the red effect was removed and a width and margin setting was added so all the html elements will populate in order.
 
 
 ### #8
@@ -82,4 +87,9 @@ Rearrange the lines to identify the correct workflow for submitting a pull reque
 
 Remove the lines that are not required in this workflow.
 
-> Commit
+--- the following steps were re-ordered and remained:
+fork on github
+git clone
+git add .
+git commit -m ""
+git push origin my-solution
