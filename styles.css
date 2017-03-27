@@ -10,6 +10,10 @@ body{
 header, footer, aside, .main{
   padding: 1em;
 }
+
+header > *, footer > *, .main > *, aside > * {
+  margin: 0;
+}
 header, footer{
   flex: 0 0 100%;
   background:#eee;
