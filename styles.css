@@ -28,7 +28,10 @@ aside{
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+  height: 54vh;
 }
+
+
 img{
   max-width:100%;
 }
