@@ -6,10 +6,12 @@ body{
   display: flex;
   flex-wrap: wrap;
   font-family
-  color: red;
+  
 }
 header, footer, aside, .main{
   padding: 1em;
+
+
 }
 header, footer{
   flex: 0 0 100%;
