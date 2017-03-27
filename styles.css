@@ -39,9 +39,51 @@ h1, h3, h2, p {
 
 @media(max-width:600px){
   .main{
-    background:red;
+    order: 1;
+
   }
+
+  header {
+    order: -1;
+
+  }
+
+  footer {
+    order: 0;
+    background: red;
+
+  }
+
+
+aside {
+  order: 2;
 }
+
+.left {
+  order: 3;
+}
+
+
+.right{
+  order: 4;
+}
+
+
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
