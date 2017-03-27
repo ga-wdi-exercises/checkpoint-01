@@ -10,6 +10,10 @@ body{
 header, footer, aside, .main{
   padding: 1em;
 }
+
+h1, h3, h2,  {
+  margin: 0 auto;
+}
 header, footer{
   flex: 0 0 100%;
   background:#eee;
@@ -31,6 +35,7 @@ aside{
 img{
   max-width:100%;
 }
+
 
 @media(max-width:600px){
   .main{
