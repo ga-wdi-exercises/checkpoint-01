@@ -22,7 +22,9 @@ aside{
   background:#ddd;
 }
 .main{
-  flex: 3;
+  display: flex;
+  flex-direction: row;
+
 }
 .left, .right{
   float:left;
