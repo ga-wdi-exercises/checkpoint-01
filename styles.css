@@ -9,6 +9,7 @@ body{
 }
 header, footer, aside, .main{
   padding: 1em;
+  margin:0;
 }
 header, footer{
   flex: 0 0 100%;
@@ -21,12 +22,20 @@ aside{
 .main{
   flex: 3;
 }
-.left, .right{
+.left{
   float:left;
   width:50%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+}
+.right{
+  float:left;
+  width:50%;
+  background:#ccc;
+  padding:1em;
+  border: 5px solid #aaa;
+
 }
 img{
   max-width:100%;
