@@ -7,7 +7,7 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, main{
+header, footer, aside, main {
   padding: 1em;
 }
 header, footer{
@@ -36,4 +36,7 @@ img{
   main{
     background:red;
   }
+}
+header h1, footer h3, main h2, aside h2 {
+  margin: 0;
 }
