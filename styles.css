@@ -33,8 +33,17 @@ img{
 }
 
 @media(max-width:600px){
+  header{
+    order: 1;
+  }
   main{
-    background:red;
+    order: 2;
+  }
+  aside{
+    order: 3;
+  }
+  footer{
+    order: 4;
   }
 }
 header h1, footer h3, main h2, aside h2 {
