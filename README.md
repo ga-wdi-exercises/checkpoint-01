@@ -67,7 +67,7 @@ Set the margin to 0 for each direct child of:
 - `.main`
 - `aside`
 
-header > *, footer > *, .main > *, aside > * {
+header > * footer > * .main > * aside > * {
 margin:0;  
 }
 
