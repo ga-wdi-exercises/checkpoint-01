@@ -23,8 +23,20 @@ aside{
 }
 main {
   flex: 3;
+  order: 2;
 }
 
+header {
+  order: 1;
+}
+
+aside {
+  order: 3;
+}
+
+footer {
+  order: 4;
+}
 
 .left, .right{
   float:left;
@@ -38,7 +50,7 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
+  main{
     background:red;
   }
 }
