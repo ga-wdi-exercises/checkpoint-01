@@ -1,33 +1,42 @@
 *{
   box-sizing:border-box;
 }
+
+header, footer{
+  flex: 0 0 100%;
+  background:#eee;
+}
+
+.main{
+  flex: 3;
+}
+
 body{
   margin:0;
   display: flex;
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
-  padding: 1em;
-}
-header, footer{
-  flex: 0 0 100%;
-  background:#eee;
-}
+
 aside{
   flex: 1;
   background:#ddd;
 }
-.main{
-  flex: 3;
+
+header, footer, aside, .main{
+  padding: 1em;
+  margin: 0
 }
+
 .left, .right{
   float:left;
   width:50%;
   background:#ccc;
   padding:1em;
   border: 5px solid #aaa;
+  flex: auto;
 }
+
 img{
   max-width:100%;
 }
