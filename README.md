@@ -37,7 +37,11 @@ Semantic version:
 
 Something about the image tag is incorrect. Fix the error.
 
-> Commit
+ORIGINAL:
+<img src='https://jesse.sh/img/me.jpg'>
+
+Update:
+<img src="https://jesse.sh/img/me.jpg" alt="Jesse Playing guitar">
 
 ### #4
 
