@@ -30,7 +30,7 @@ Identify one non-semantic tag and replace it with a semantic one.
 
 Something about the image tag is incorrect. Fix the error.
 
-> Commit
+> Forgot the alt tag
 
 ### #4
 
@@ -82,4 +82,13 @@ Rearrange the lines to identify the correct workflow for submitting a pull reque
 
 Remove the lines that are not required in this workflow.
 
-> Commit
+> Cofork on github
+git clone
+git checkout -b my-solution
+git checkout master
+git add .
+git commit -m ""
+git push origin my-solution
+git fetch --all
+git pull upstream master
+git merge my-solutionmmit
