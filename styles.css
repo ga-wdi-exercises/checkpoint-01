@@ -38,7 +38,7 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
+  header,main,aside,aside,footer{
     background:red;
   }
 }
