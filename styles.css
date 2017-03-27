@@ -14,7 +14,7 @@ header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
-header h1, footer h3, main h2, main div, main img {
+header h1, footer h3, main h2, main div, main img, aside h2 {
   margin: 0;
 }
 aside{
