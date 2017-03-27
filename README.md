@@ -24,7 +24,14 @@ Open up `index.html` in a text editor and browser. Link to the provided styleshe
 
 Identify one non-semantic tag and replace it with a semantic one.
 
-> Commit
+ORIGINAL:
+<div class='main'>
+  <h2>The Main Content</h2>
+
+Semantic version:
+<header class='main'>
+  <h2>The Main Content</h2>
+
 
 ### #3
 
