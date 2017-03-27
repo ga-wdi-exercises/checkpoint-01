@@ -10,6 +10,12 @@ body{
 header, footer, aside, .main{
   padding: 1em;
 }
+
+/*ugh I know there's a selector for all direct children of the parent but I can't remember how to use it.  something with the ~ symbol.  for now i'll target them all individually*/
+header h1, footer h3, .main h2, aside h2  {
+  margin: 0;
+}
+
 header, footer{
   flex: 0 0 100%;
   background:#eee;
@@ -21,7 +27,9 @@ aside{
 .main{
   flex: 3;
 }
-.left, .right{
+
+/*It looks like they're already sitting next to each other?*/
+.about, .right{
   float:left;
   width:50%;
   background:#ccc;
@@ -33,7 +41,19 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
+  body {
+    display: flex;
+  }
+  header {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  aside {
+    order: 3;
+  }
+  footer {
+    order: 4;
   }
 }
