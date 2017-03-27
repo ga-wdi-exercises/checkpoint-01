@@ -28,6 +28,11 @@ main{
   padding:1em;
   border: 5px solid #aaa;
 }
+
+.right {
+    height: 86%;
+}
+
 img{
   max-width:100%;
 }
