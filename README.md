@@ -47,7 +47,16 @@ Update:
 
 Change the title of the page. Specifically, change what shows in the tab of the page (i.e., at the top of the browser).
 
-> Commit
+ORIGINAL:
+<head>
+  <link rel='stylesheet' href='styles.css' type="text/css">
+</head>
+
+Update:
+<head>
+  <link rel='stylesheet' href='styles.css' type="text/css">
+  <title>Jesse's Page</title>
+</head>
 
 ### #5
 
