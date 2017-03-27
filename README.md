@@ -83,11 +83,23 @@ When the page is fewer than 600px wide, the background of `.main` turns red.
 
 Instead of making `.main` red, reorder the elements to...
 
-1. Header
-2. Main
-3. Aside
-4. Aside
-5. Footer
+@media(max-width:600px){
+  header{
+    order:1;
+  }
+  .main{
+    order:2;
+  }
+  aside{
+    order:3;
+  }
+  aside{
+    order:4;
+  }
+  footer{
+    order:5;
+  }
+}
 
 Do this using only CSS -- do not rearrange the HTML.
 
