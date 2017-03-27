@@ -32,8 +32,18 @@ img{
   max-width:100%;
 }
 
+h1, h3, h2, p {
+  margin: 0px;
+}
+
+
 @media(max-width:600px){
   .main{
     background:red;
   }
 }
+
+
+
+
+
