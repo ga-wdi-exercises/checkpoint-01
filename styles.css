@@ -7,19 +7,32 @@ body{
   flex-wrap: wrap;
   font-family
 }
-header, footer, aside, .main{
-  padding: 1em;
-}
+#flexbox {
+  header, footer, aside, .main {
+    margin: 0;
+    padding: 1em;
+  }
+
 header, footer{
   flex: 0 0 100%;
   background:#eee;
 }
+header {
+  order: 1;
+}
+footer {
+  order: 5;
+}
 aside{
   flex: 1;
   background:#ddd;
+  order: 3;
+
 }
 .main{
+  display: flex;
   flex: 3;
+  order: 2;
 }
 .left, .right{
   float:left;
@@ -36,4 +49,5 @@ img{
   .main{
     background:red;
   }
+}
 }
