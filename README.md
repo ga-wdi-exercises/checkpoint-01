@@ -28,7 +28,7 @@ Identify one non-semantic tag and replace it with a semantic one.
 
 ### #3
 
-Something about the image tag is incorrect. Fix the error.
+Something is missing from the image tag. Fix the HTML.
 
 > Commit
 
@@ -40,7 +40,7 @@ Change the title of the page. Specifically, change what shows in the tab of the 
 
 ### #5
 
-Set the margin to 0 for each direct child of:
+Set the margin to 0 for each direct child of...
 
 - `header`
 - `footer`
@@ -51,7 +51,7 @@ Set the margin to 0 for each direct child of:
 
 ### #6
 
-If you inspect the `.left` and `.right` elements, you will see that they have `width: 50%;` and `float: left`. However, they are not sitting next to each other.
+If you inspect the `.left` and `.right` elements, you will see that they have `width: 50%;` and `float: left`. They are not, however, sitting next to each other.
 
 Fix this issue without modifying any of `.left` and `.right`'s `padding`, `border`, or `width`.
 
@@ -59,7 +59,7 @@ Fix this issue without modifying any of `.left` and `.right`'s `padding`, `borde
 
 ### #7
 
-When the page is fewer than 600px wide, the background of `.main` turns red.
+When the page is fewer than 600px wide, the background of `.main` turns red. The code responsible for this is located in the [`@media`](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) query at the bottom of the stylesheet.
 
 Instead of making `.main` red, reorder the elements to...
 
@@ -72,7 +72,6 @@ Instead of making `.main` red, reorder the elements to...
 Do this using only CSS -- do not rearrange the HTML.
 
 > Commit
-
 
 ### #8
 
