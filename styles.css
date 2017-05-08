@@ -36,6 +36,19 @@ img {
   max-width: 100%;
 }
 
+header > * {
+  margin: 0px;
+}
+
+footer > * {
+  margin: 0px;
+}
+.main > * {
+  margin: 0px;
+}
+aside > * {
+  margin: 0px;
+}
 
 @media(max-width: 600px) {
   .main {
