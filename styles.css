@@ -23,6 +23,8 @@ aside {
 }
 
 .left, .right {
+  display: inline-flex;
+  flex: 1;
   float: left;
   width: 50%;
   background: #ccc;
