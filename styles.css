@@ -22,7 +22,7 @@ aside {
   flex: 3;
   display: flex;
 }
-
+//non-semantic
 .left, .right{
   //float: left;
   width: 50%;
@@ -35,9 +35,6 @@ img {
 
   max-width: 100%;
 }
-
-
-
 
 
 @media(max-width: 600px) {
