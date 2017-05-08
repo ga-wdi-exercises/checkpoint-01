@@ -24,7 +24,7 @@ file:///Users/tarikkazanci/wdi/exercises/checkpoint-01/index.html
 
 Identify one non-semantic tag and replace it with a semantic one.
 
-> Commit
+<div class='main'>    <main>
 
 ### #3
 
