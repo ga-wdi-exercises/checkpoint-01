@@ -37,10 +37,33 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
+  /*.main {
     background: red;
   }
+  */
+.header, .main, footer, aside, aside {
+  display: flex;
+  flex-direction: row;
 }
+  .header {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  aside{
+    order: 3;
+  }
+  aside{
+    order: 4;
+
+  }
+  footer{
+    order: 5;
+  }
+
+}
+
 
 header, footer, .main, aside > * {
 
