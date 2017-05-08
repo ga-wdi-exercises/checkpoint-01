@@ -18,25 +18,26 @@ If you finish early, try tackling the [Moonrise Kingdom exercise](https://github
 
 Open up `index.html` in a text editor and browser. Link to the provided stylesheet.
 
-> Commit
+
 
 ### #2
 
 Identify one non-semantic tag and replace it with a semantic one.
 
-> Commit
+<div class= <main>   </main>
 
 ### #3
 
 Something is missing from the image tag. Fix the HTML.
 
-> Commit
+alt = "jess's Image"
 
 ### #4
 
 Change the title of the page. Specifically, change what shows in the tab of the page (i.e., at the top of the browser).
-
-> Commit
+<head>
+<title>the title</title>
+</head>
 
 ### #5
 
@@ -47,7 +48,6 @@ Set the margin to 0 for each direct child of...
 - `.main`
 - `aside`
 
-> Commit
 
 ### #6
 
