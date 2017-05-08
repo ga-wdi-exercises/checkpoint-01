@@ -28,6 +28,7 @@ aside {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  
 }
 
 img {
@@ -38,4 +39,17 @@ img {
   .main {
     background: red;
   }
+}
+
+h1 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+h2: {
+  margin: 0;
 }
