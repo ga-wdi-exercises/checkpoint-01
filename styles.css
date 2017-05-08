@@ -29,6 +29,7 @@ aside {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  box-sizing: border-box;
 }
 
 img {
