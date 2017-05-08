@@ -20,10 +20,11 @@ aside {
 
 .main {
   flex: 3;
+  display: flex;
 }
 
-.left, .right {
-  float: left;
+.left, .right{
+  //float: left;
   width: 50%;
   background: #ccc;
   padding: 1em;
@@ -31,8 +32,13 @@ aside {
 }
 
 img {
+
   max-width: 100%;
 }
+
+
+
+
 
 @media(max-width: 600px) {
   .main {
