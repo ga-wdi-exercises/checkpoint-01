@@ -24,7 +24,7 @@ aside {
 }
 
 .left, .right {
-  float: left;
+  display: inline;
   width: 50%;
   background: #ccc;
   padding: 1em;
