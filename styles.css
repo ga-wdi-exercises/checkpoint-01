@@ -7,6 +7,9 @@ body {
 header, footer, aside, .main {
   padding: 1em;
 }
+header, footer, aside, .main > * {
+  margin: 0;
+}
 
 header, footer {
   flex: 0 0 100%;
@@ -23,11 +26,11 @@ aside {
 }
 
 .left, .right {
-  float: left;
   width: 50%;
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  display: inline;
 }
 
 img {
@@ -35,7 +38,11 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
-    background: red;
+  main {
+    header {order: 1;}
+    main {order: 2;}
+    aside {order: 3;}
+    aside {order: 4;}
+    footer {order: 5;}
   }
 }
