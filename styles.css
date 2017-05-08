@@ -37,19 +37,19 @@ img {
 
 @media(max-width: 600px) {
   .main {
-    .header {
+    header {
     order: 0 !important;
   }
     .main {
     order: 1 !important;
   }
-  .aside {
+  aside {
   order: 2 !important;
   }
-  .aside {
+  aside {
   order: 3 !important;
   }
-  .footer {
+  footer {
   order: 4 !important;
   }
   }
