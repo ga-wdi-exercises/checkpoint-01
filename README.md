@@ -18,7 +18,7 @@ If you finish early, try tackling the [Moonrise Kingdom exercise](https://github
 
 Open up `index.html` in a text editor and browser. Link to the provided stylesheet.
 
-> Commit
+file:///Users/tarikkazanci/wdi/exercises/checkpoint-01/index.html
 
 ### #2
 
