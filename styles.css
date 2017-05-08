@@ -20,22 +20,51 @@ aside {
 
 .main {
   flex: 3;
+  display: flex;
 }
 
-.left, .right {
-  float: left;
-  width: 50%;
+.left, .right{
+  //float: left;
+  width: 60%;
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
 }
 
 img {
+
   max-width: 100%;
 }
 
+header > * {
+  margin: 0px;
+}
+
+footer > * {
+  margin: 0px;
+}
+.main > * {
+  margin: 0px;
+}
+aside > * {
+  margin: 0px;
+}
+
 @media(max-width: 600px) {
-  .main {
-    background: red;
+  header{
+    order: 1;
+  }
+  .main{
+    flex: 0 0 100%;
+    order: 2;
+  }
+  .left-aside{
+    order: 3;
+  }
+  .right-aside{
+    order: 4;
+  }
+  footer{
+    order: 5;
   }
 }
