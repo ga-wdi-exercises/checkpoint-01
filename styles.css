@@ -39,3 +39,6 @@ img {
     background: red;
   }
 }
+header, footer, aside, .main > {
+  margin: 0px;
+}
