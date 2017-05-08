@@ -24,6 +24,7 @@ aside {
 
 .left, .right {
   float: left;
+  box-sizing: border-box;
   width: 50%;
   background: #ccc;
   padding: 1em;
@@ -35,7 +36,22 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
-    background: red;
+  header {
+    order: 1;
   }
+  main {
+    order: 2;
+  }
+  aside:nth-of-type(1) {
+    order: 3;
+  }
+  aside:nth-of-type(2) {
+    order: 4;
+  }
+  footer {
+    order: 5;
+  }
+}
+header > *, aside > *, .main > *, footer > * {
+  margin: 0;
 }
