@@ -6,6 +6,7 @@ body {
 
 header, footer, aside, .main {
   padding: 1em;
+  margin: 0;
 }
 
 header, footer {
@@ -22,20 +23,50 @@ aside {
   flex: 3;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  margin: 0;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  background: #ccc;
+  padding: 1em;
+  border: 5px solid #aaa;
+  margin: 0;
 }
 
 img {
   max-width: 100%;
 }
 
+h1, h2, h3, p {
+  margin: 0;
+}
+
 @media(max-width: 600px) {
-  .main {
-    background: red;
+  header {
+    order: 1;
+  }
+
+  main {
+    order: 2;
+  }
+
+  aside {
+    order: 3;
+  }
+
+  aside {
+    order: 4;
+  }
+
+  footer {
+    order: 5;
   }
 }
