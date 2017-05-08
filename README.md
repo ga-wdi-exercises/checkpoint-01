@@ -30,7 +30,7 @@ Identify one non-semantic tag and replace it with a semantic one.
 
 Something is missing from the image tag. Fix the HTML.
 
-> Commit
+added alt="Jesse's Image"
 
 ### #4
 
