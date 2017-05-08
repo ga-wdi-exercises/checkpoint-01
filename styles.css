@@ -6,6 +6,7 @@ body {
 
 header, footer, aside, .main {
   padding: 1em;
+  margin: 0px;
 }
 
 header, footer {
@@ -28,6 +29,21 @@ aside {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  clearfix: both;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+position: fixed;
+
+}
+
+.wrapper {
+  position: relative;
+  margin: 0;
 }
 
 img {
