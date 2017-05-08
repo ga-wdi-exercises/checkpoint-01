@@ -24,6 +24,7 @@ aside {
 
 .left, .right {
   float: left;
+  box-sizing: border-box;
   width: 50%;
   background: #ccc;
   padding: 1em;
