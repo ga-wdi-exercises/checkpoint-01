@@ -77,7 +77,7 @@ Do this using only CSS -- do not rearrange the HTML.
 
 Open up `workflow.txt`
 
-Rearrange the lines to identify the correct workflow for submitting a pull request on a non-master branch.
+Rearrange the lines to identify the correct workflow for submitting a homework assignment created on a non-master branch.
 
 Remove the lines that are not required in this workflow.
 
