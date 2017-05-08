@@ -36,7 +36,7 @@ added alt="Jesse's Image"
 
 Change the title of the page. Specifically, change what shows in the tab of the page (i.e., at the top of the browser).
 
-> Commit
+<title>Jesse's Webpage</title>
 
 ### #5
 
