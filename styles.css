@@ -38,7 +38,11 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
-    background: red;
+  main {
+    header {order: 1;}
+    main {order: 2;}
+    aside {order: 3;}
+    aside {order: 4;}
+    footer {order: 5;}
   }
 }
