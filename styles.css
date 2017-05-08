@@ -6,6 +6,7 @@ body {
 
 header, footer, aside, .main {
   padding: 1em;
+  margin: 0;
 }
 
 header, footer {
@@ -28,6 +29,7 @@ aside {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  box-sizing: border-box;
 }
 
 img {
@@ -35,7 +37,13 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
-    background: red;
+  body{
+    flex-direction: column;
   }
+  .main {
+    order: 2;
+  }
+  header{order: 1;}
+  aside{order: 3;}
+  footer{order: 4;}
 }
