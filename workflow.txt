@@ -1,4 +1,3 @@
-git fetch --all
 fork on github
 git clone
 git add .
@@ -6,5 +5,3 @@ git commit -m ""
 git push origin my-solution
 git merge my-solution
 git checkout -b my-solution
-git pull upstream master
-git checkout master
