@@ -23,8 +23,23 @@ aside {
   flex: 3;
 }
 
-.left, .right {
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
   float: left;
+  width: 50%;
+  background: #ccc;
+  padding: 1em;
+  border: 5px solid #aaa;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  float: right;
   width: 50%;
   background: #ccc;
   padding: 1em;
