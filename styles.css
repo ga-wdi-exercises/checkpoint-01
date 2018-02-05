@@ -6,11 +6,12 @@ body {
 
 header, footer, aside, .main {
   padding: 1em;
+  margin: 0;
 }
 
 header, footer {
   flex: 0 0 100%;
-  background: #eee;
+  background: rgb(10, 7, 7);
 }
 
 aside {
