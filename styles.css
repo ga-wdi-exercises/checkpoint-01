@@ -40,7 +40,32 @@ img {
 }
 
 @media(max-width: 600px) {
+  header {
+    order: 1;
+  }
+
   .main {
-    background: red;
+    order: 2;
+  }
+
+  aside {
+    order: 3;
+    order: 4;
+  }
+
+  footer {
+    order: 5;
   }
 }
+
+
+
+/*
+Instead of making `.main` red, reorder the elements to...
+
+1. Header
+2. Main
+3. Aside
+4. Aside
+5. Footer
+*/
