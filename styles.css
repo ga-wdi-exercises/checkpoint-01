@@ -4,7 +4,7 @@ body {
   flex-wrap: wrap;
 }
 
-header, footer, aside, .main {
+header, footer, aside, section {
   padding: 1em;
   margin: 0;
 }
@@ -12,6 +12,7 @@ header, footer, aside, .main {
 header, footer {
   flex: 0 0 100%;
   background: #eee;
+  
 }
 
 aside {
@@ -19,7 +20,7 @@ aside {
   background: #ddd;
 }
 
-.main {
+section {
   flex: 3;
 }
 
