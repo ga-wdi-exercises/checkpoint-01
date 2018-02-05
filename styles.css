@@ -24,11 +24,15 @@ aside {
 }
 
 .left, .right {
-  float: left;
-  width: 50%;
-  background: #ccc;
+  float: none;
   padding: 1em;
+  width: 50%;
   border: 5px solid #aaa;
+  background: #ccc;
+}
+
+.left {
+  margin: auto;
 }
 
 img {
