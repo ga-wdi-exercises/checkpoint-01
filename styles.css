@@ -26,6 +26,11 @@ aside {
   flex: 3;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
 .left, .right {
   float: left;
   width: 50%;
