@@ -26,7 +26,7 @@ section {
 }
 
 .left, .right {
-  float: center;
+  float: left;
   width: 50%;
   background: #ccc;
   padding: 1em;
