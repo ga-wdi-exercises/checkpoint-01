@@ -20,7 +20,11 @@ aside {
 }
 
 .main {
+  color: red;
   flex: 3;
+  padding: 5em;
+  border: 5px solid #aaa;
+  width: 60%; 
 }
 
 .left, .right {
