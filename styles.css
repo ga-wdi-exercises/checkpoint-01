@@ -18,20 +18,30 @@ aside {
   background: #ddd;
 }
 
+h1, h2, h3 {
+  margin: 0;
+}
+
+
 .main {
   flex: 3;
 }
 
-.left, .right {
-  float: left;
+.left, .right { 
   width: 50%;
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  margin: 0;
+}
+
+.right {
+ display: flex;
 }
 
 img {
   max-width: 100%;
+  margin: 0;
 }
 
 @media(max-width: 600px) {
