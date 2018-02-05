@@ -4,7 +4,7 @@ body {
   flex-wrap: wrap;
 }
 
-header, footer, aside, .main {
+header, footer, aside, main {
   padding: 1em;
   margin: 0;
 }
@@ -21,7 +21,7 @@ aside {
 
 .flex {
   display: flex;
-  
+
 }
 
 main {
@@ -51,7 +51,21 @@ img {
 }
 
 @media(max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    order: 1;
+  }
+
+  footer {
+    order: 2;
+  }
+  
   main {
     background: red;
+    order: 0;
   }
 }
