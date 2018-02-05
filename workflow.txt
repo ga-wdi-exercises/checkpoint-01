@@ -3,3 +3,4 @@ git clone
 git add .
 git commit -m ""
 git push origin my-solution
+git pull upstream master
