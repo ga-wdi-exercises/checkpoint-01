@@ -17,7 +17,9 @@ aside {
   flex: 1;
   background: #ddd;
 }
-
+h1, h2, .left, .right, h3, p {
+  margin: 0;
+}
 .main {
   flex: 3;
 }
