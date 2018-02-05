@@ -26,8 +26,8 @@ aside {
 .left {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: space-between; 
-  float: left;
   width: 50%;
   background: #ccc;
   padding: 1em;
@@ -37,9 +37,9 @@ aside {
 .right {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: space-around;
-  float: right;
+  flex-flow: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   width: 50%;
   background: #ccc;
   padding: 1em;
