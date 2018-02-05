@@ -22,6 +22,7 @@ aside {
 
 .main {
   flex: 3;
+  display: inline-block;
 }
 
 .left, .right {
@@ -30,6 +31,7 @@ aside {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+
 }
 
 img {
