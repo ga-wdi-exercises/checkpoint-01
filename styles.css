@@ -8,6 +8,10 @@ header, footer, aside, .main {
   padding: 1em;
 }
 
+header > *, footer > *, aside > *, .main > * {
+  margin: 0;
+}
+
 header, footer {
   flex: 0 0 100%;
   background: #eee;
@@ -20,6 +24,11 @@ aside {
 
 .main {
   flex: 3;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
 }
 
 .left, .right {
