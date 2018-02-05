@@ -6,6 +6,7 @@ body {
 
 header, footer, aside, .main {
   padding: 1em;
+  margin: 0px;
 }
 
 header, footer {
@@ -23,11 +24,15 @@ aside {
 }
 
 .left, .right {
-  float: left;
-  width: 50%;
-  background: #ccc;
+  float: none;
   padding: 1em;
+  width: 50%;
   border: 5px solid #aaa;
+  background: #ccc;
+}
+
+.left {
+  margin: auto;
 }
 
 img {
@@ -35,7 +40,32 @@ img {
 }
 
 @media(max-width: 600px) {
+  header {
+    order: 1;
+  }
+
   .main {
-    background: red;
+    order: 2;
+  }
+
+  aside {
+    order: 3;
+    order: 4;
+  }
+
+  footer {
+    order: 5;
   }
 }
+
+
+
+/*
+Instead of making `.main` red, reorder the elements to...
+
+1. Header
+2. Main
+3. Aside
+4. Aside
+5. Footer
+*/
