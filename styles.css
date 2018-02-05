@@ -4,8 +4,9 @@ body {
   flex-wrap: wrap;
 }
 
-header, footer, aside, .main {
+header, footer, aside, section {
   padding: 1em;
+  margin: 0;
 }
 
 header, footer {
@@ -18,8 +19,10 @@ aside {
   background: #ddd;
 }
 
-.main {
+section {
   flex: 3;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .left, .right {
@@ -28,6 +31,7 @@ aside {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  
 }
 
 img {
