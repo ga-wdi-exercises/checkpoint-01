@@ -29,6 +29,7 @@ main h2{
 
 main {
   flex: 3;
+  display: flex;
 }
 
 .left, .right {
@@ -37,6 +38,7 @@ main {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+
 }
 
 img {
