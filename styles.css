@@ -4,7 +4,7 @@ body {
   flex-wrap: wrap;
 }
 
-header, footer, aside, .main {
+header, footer, aside, main {
   padding: 1em;
 }
 
@@ -18,16 +18,24 @@ aside {
   background: #ddd;
 }
 
-.main {
+main {
   flex: 3;
 }
 
 .left, .right {
-  float: left;
   width: 50%;
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+}
+.left {
+  float: left;
+  margin: 0px -25px;
+}
+.right {
+  float: right;
+  margin: 0px -25px;
+  height: 371px;
 }
 
 img {
@@ -35,7 +43,25 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
+  main {
     background: red;
   }
+}
+
+header h1 {
+  margin: 0;
+}
+aside h2 {
+  margin: 0;
+}
+
+main h2 {
+  margin: 0;
+}
+footer h3 {
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
 }
