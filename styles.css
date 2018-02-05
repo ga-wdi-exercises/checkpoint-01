@@ -19,6 +19,7 @@ aside {
 }
 
 .main {
+  display: flex;
   flex: 3;
 }
 
