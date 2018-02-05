@@ -59,6 +59,16 @@ Fix this issue without modifying any of `.left` and `.right`'s `padding`, `borde
 
 ### #7
 
+Open up `workflow.txt`
+
+Rearrange the lines to identify the correct workflow for submitting a homework assignment created on a non-master branch.
+
+Remove the lines that are not required in this workflow.
+
+> Commit
+
+### #Bonus
+
 When the page is fewer than 600px wide, the background of `.main` turns red. The code responsible for this is located in the [`@media`](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) query at the bottom of the stylesheet.
 
 Instead of making `.main` red, reorder the elements to...
@@ -70,15 +80,5 @@ Instead of making `.main` red, reorder the elements to...
 5. Footer
 
 Do this using only CSS -- do not rearrange the HTML.
-
-> Commit
-
-### #8
-
-Open up `workflow.txt`
-
-Rearrange the lines to identify the correct workflow for submitting a homework assignment created on a non-master branch.
-
-Remove the lines that are not required in this workflow.
 
 > Commit
