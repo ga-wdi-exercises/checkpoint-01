@@ -37,7 +37,21 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
-    background: red;
+  body {
+    display: grid;
+    grid-template-rows: 5;
+    grid-template-columns: 1;
+  }
+
+  header {
+    grid-row: 1;
+  }
+  
+  main {
+    grid-row: 2;
+  }
+
+  footer {
+    grid-row: 5;
   }
 }
