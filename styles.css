@@ -1,10 +1,11 @@
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
-header, footer, aside, main {
+header, footer, aside, .main {
   padding: 1em;
   margin: 0;  
 }
@@ -19,34 +20,27 @@ aside {
   background: #ddd;
 }
 
-main {
+.main {
+  display: flex;
+  flex-direction: row;
   flex: 3;
-  /* flex-wrap: nowrap;
-  display: inline-block; */
+
 }
 
 .left, .right {
-  float: none;
+  float: left;
   width: 50%;
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
 }
-/*
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-} */
 
 img {
   max-width: 25%;
 }
 
 @media(max-width: 600px) {
-  .main {
+  main {
     background: red;
   }
 }
