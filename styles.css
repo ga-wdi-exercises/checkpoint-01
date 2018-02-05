@@ -3,31 +3,40 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
 header, footer, aside, .main {
   padding: 1em;
 }
-
 header, footer {
   flex: 0 0 100%;
   background: #eee;
 }
-
 aside {
   flex: 1;
   background: #ddd;
 }
-
+h1, h2, .left, .right, h3, p {
+  margin: 0;
+}
 .main {
   flex: 3;
 }
-
 .left, .right {
-  float: left;
-  width: 50%;
+  /* float: left;
+  width: 50%; */
+  /*Can't figure out how to get rid of spaces in between .left & .right boxes without getting rid of width*/
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+}
+.grid {
+  display: grid;
+  grid-template-columns: none;
+}
+.left {
+  grid-column: 1;
+}
+.right {
+  grid-column: 2;
 }
 
 img {
