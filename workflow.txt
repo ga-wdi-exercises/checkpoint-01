@@ -1,7 +1,6 @@
 fork on github
 git clone
 git pull upstream master
-git fetch --all
 git checkout master
 git add .
 git commit -m ""
