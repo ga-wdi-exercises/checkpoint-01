@@ -4,7 +4,7 @@ body {
   flex-wrap: wrap;
 }
 
-header, footer, aside, .main {
+header, footer, aside, main {
   padding: 1em;
 }
 
@@ -12,13 +12,22 @@ header, footer {
   flex: 0 0 100%;
   background: #eee;
 }
+header h1{
+  margin: 0;
+}
 
 aside {
   flex: 1;
   background: #ddd;
 }
+main div{
+  margin: 0;
+}
+main h2{
+  margin: 0;
+}
 
-.main {
+main {
   flex: 3;
 }
 
@@ -37,5 +46,9 @@ img {
 @media(max-width: 600px) {
   .main {
     background: red;
+  }
+
+  aside h2{
+    margin: 0;
   }
 }
