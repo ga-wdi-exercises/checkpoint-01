@@ -46,7 +46,7 @@ img {
 }
 
 @media(max-width: 600px) {
-  .main {
+  main {
     background: red;
   }
 
