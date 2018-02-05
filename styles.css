@@ -23,8 +23,7 @@ aside {
   flex: 3;
 }
 
-.left, .right {
-  float: left;
+.left, .right { 
   width: 50%;
   background: #ccc;
   padding: 1em;
