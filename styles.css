@@ -12,7 +12,6 @@ header, footer, aside, section {
 header, footer {
   flex: 0 0 100%;
   background: #eee;
-  
 }
 
 aside {
@@ -25,15 +24,16 @@ section {
 }
 
 .left, .right {
-  float: left;
+  float: center;
   width: 50%;
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 @media(max-width: 600px) {
