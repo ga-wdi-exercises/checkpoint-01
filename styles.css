@@ -19,6 +19,11 @@ aside {
   background: #ddd;
 }
 
+.flex {
+  display: flex;
+  
+}
+
 main {
   flex: 3;
 }
