@@ -21,6 +21,8 @@ aside {
 
 section {
   flex: 3;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .left, .right {
@@ -33,7 +35,7 @@ section {
 }
 
 img {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 @media(max-width: 600px) {
