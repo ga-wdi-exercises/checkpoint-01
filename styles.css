@@ -20,6 +20,8 @@ aside {
 
 .main {
   flex: 3;
+  flex-direction: row;
+  align-content: flex-start;
 }
 
 .left, .right {
