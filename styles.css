@@ -19,11 +19,11 @@ aside {
   background: #ddd;
 }
 
-.main {
+main {
   flex: 3;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
   background: #ccc;
@@ -31,12 +31,22 @@ aside {
   border: 5px solid #aaa;
 }
 
+.right {
+  float: right;
+  width: 50%;
+  background: #ccc;
+  padding: 1em;
+  border: 5px solid #aaa;
+}
+
+
+
 img {
   max-width: 100%;
 }
 
 @media(max-width: 600px) {
-  .main {
+  main {
     background: red;
   }
 }
