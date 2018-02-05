@@ -30,6 +30,7 @@ h1, h2, .left, .right, h3, p {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  display: inline-block;
 }
 
 img {
