@@ -20,6 +20,8 @@ aside {
 
 .main {
   flex: 3;
+  flex-direction: row;
+  align-content: flex-start;
 }
 
 .left, .right {
@@ -28,6 +30,7 @@ aside {
   background: #ccc;
   padding: 1em;
   border: 5px solid #aaa;
+  margin: 0;
 }
 
 img {
@@ -38,4 +41,20 @@ img {
   .main {
     background: red;
   }
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
 }
