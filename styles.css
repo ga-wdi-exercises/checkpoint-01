@@ -1,6 +1,7 @@
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -19,6 +20,8 @@ aside {
 }
 
 .main {
+  display: flex;
+  flex-direction: row;
   flex: 3;
 }
 
@@ -36,6 +39,12 @@ img {
 
 @media(max-width: 600px) {
   .main {
-    background: red;
+    background:red;
+    flex-flow: nowrap;
+    flex-direction: column;
   }
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
