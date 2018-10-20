@@ -22,16 +22,22 @@ aside {
   flex: 3;
 }
 
-.left{
+.left , .right{
   float: left;
   width: 50%;
-  padding: 1em;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-.right{
-  float: left;
+.rotate-img{
+  transform: scaleX(-1);
+}
+
+
+.cont-title{
   width: 50%;
-  padding: 1em;
+  float: left;
 }
 
 img {
