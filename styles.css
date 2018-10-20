@@ -22,12 +22,16 @@ aside {
   flex: 3;
 }
 
-.left, .right {
+.left{
   float: left;
   width: 50%;
-  background: #ccc;
   padding: 1em;
-  border: 5px solid #aaa;
+}
+
+.right{
+  float: left;
+  width: 50%;
+  padding: 1em;
 }
 
 img {
